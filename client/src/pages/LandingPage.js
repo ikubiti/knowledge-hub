@@ -18,6 +18,10 @@ const item = {
 
 export default function ProductHero() {
 
+    const handleLoginRedirect = () => {
+        navigate('/register', { replace: true });
+    }
+
 const backgroundImg = backgroundImage[Math.floor(Math.random() * backgroundImage.length)]
 
     return (
@@ -50,7 +54,8 @@ const backgroundImg = backgroundImage[Math.floor(Math.random() * backgroundImage
                     variant="contained"
                     size="large"
                     component="a"
-                    href="/register"
+                    // href="/register"
+                    onClick={handleLoginRedirect}
                 >
                     Register
                 </Button>
