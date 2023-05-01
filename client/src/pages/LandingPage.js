@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Typography, Button, Box, Grid, Container, } from '@mui/material';
 import ProductHeroLayout from './LadingPageLayout';
 import LoginPage from './LoginPage';
@@ -17,6 +18,7 @@ const item = {
 
 
 export default function ProductHero() {
+    const navigate = useNavigate();
 
     const handleLoginRedirect = () => {
         navigate('/register', { replace: true });
