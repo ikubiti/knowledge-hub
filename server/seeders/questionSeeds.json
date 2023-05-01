@@ -1,0 +1,65 @@
+[
+    {
+        "title": "What is JavaScript?",
+        "options": [
+            "A programming language",
+            "A scripting language",
+            "A markup language",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "title": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+        "options": [
+            "<script href='xxx.js'>",
+            "<script name='xxx.js'>",
+            "<script src='xxx.js'>",
+            "<script file='xxx.js'>"
+        ],
+        "answer": "<script src='xxx.js'>"
+    },
+    {
+        "title": "How do you write 'Hello World' in an alert box?",
+        "options": [
+            "msgBox('Hello World');",
+            "alertBox('Hello World');",
+            "msg('Hello World');",
+            "alert('Hello World');"
+        ],
+        "answer": "alert('Hello World');"
+    },
+    {
+        "title": "___ is the language we use to style an HTML document",
+        "options": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git",
+            "JQuery"
+        ],
+        "answer": "CSS"
+    },
+    {
+        "title": "The condition in an if / else statement is enclosed within ___.",
+        "options": [
+            "Quotes",
+            "Curly Brackets",
+            "Parenthesis",
+            "Square Brackets",
+            "None of the answers"
+        ],
+        "answer": "Curly Brackets"
+    },
+    {
+        "title": "Arrays in JavaScript can be used to store ___.",
+        "options": [
+            "Numbers",
+            "Strings",
+            "Objects",
+            "Booleans",
+            "All of the answers"
+        ],
+        "answer": "All of the answers"
+    }
+]

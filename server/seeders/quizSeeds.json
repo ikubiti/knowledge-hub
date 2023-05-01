@@ -1,0 +1,32 @@
+[
+    {
+        "title": "HTML Quiz 101",
+        "dueDate": "2023-12-25",
+        "courseTitle": "Introduction to Web Development"
+    },
+    {
+        "title": "SQL Quiz 102",
+        "dueDate": "2023-12-26",
+        "courseTitle": "Database Design with SQL"
+    },
+    {
+        "title": "NoSQL Quiz 103",
+        "dueDate": "2023-12-27",
+        "courseTitle": "NoSQL Databases"
+    },
+    {
+        "title": "JavaScript Quiz 104",
+        "dueDate": "2023-12-28",
+        "courseTitle": "Introduction to Web Development"
+    },
+    {
+        "title": "MongoDB Quiz 105",
+        "dueDate": "2023-12-29",
+        "courseTitle": "NoSQL Databases"
+    },
+    {
+        "title": "MySQL Quiz 102",
+        "dueDate": "2023-12-26",
+        "courseTitle": "Database Design with SQL"
+    }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "teacher",
+    "permissions": [
+      "All"
+    ]
+  },
+  {
+    "name": "student",
+    "permissions": [
+      "Normal"
+    ]
+  },
+  {
+    "name": "admin",
+    "permissions": [
+      "Super"
+    ]
+  }
+]
