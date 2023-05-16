@@ -41,7 +41,6 @@ export default function LoginForm() {
         throw new Error('something went wrong!');
       }
       Auth.login(data.login.token);
-      navigate('/', { replace: true });
     } catch (err) {
       console.error(err);
     }

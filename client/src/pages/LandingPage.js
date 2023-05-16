@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { useNavigate } from 'react-router-dom';
 import { Typography, Button, Box, Grid, Container, } from '@mui/material';
 import ProductHeroLayout from './LadingPageLayout';
 import LoginPage from './LoginPage';
@@ -18,11 +17,6 @@ const item = {
 
 
 export default function ProductHero() {
-    const navigate = useNavigate();
-
-    const handleLoginRedirect = () => {
-        navigate('/register', { replace: true });
-    }
 
 const backgroundImg = backgroundImage[Math.floor(Math.random() * backgroundImage.length)]
 
@@ -56,8 +50,7 @@ const backgroundImg = backgroundImage[Math.floor(Math.random() * backgroundImage
                     variant="contained"
                     size="large"
                     component="a"
-                    // href="/register"
-                    onClick={handleLoginRedirect}
+                    href="/register"
                 >
                     Register
                 </Button>
