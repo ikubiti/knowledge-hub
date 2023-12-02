@@ -1,5 +1,6 @@
 // use this to decode a token and get the user's information out of it
-import decode from 'jwt-decode';
+import { jwtDecode } from 'jwt-decode';
+const decode = jwtDecode;
 
 // create a new class to instantiate for a user
 class AuthService {
@@ -21,7 +22,7 @@ class AuthService {
       const decoded = decode(token);
       if (decoded.exp < Date.now() / 1000) {
         return true;
-      } 
+      }
       return false;
     } catch (err) {
       return false;

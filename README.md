@@ -72,4 +72,4 @@ The graded quiz page for a completed quiz
 
 ## Link to Deployed Page
 
-## Repo
+[Link to Deployed Site](https://young-temple-69775.herokuapp.com/)
