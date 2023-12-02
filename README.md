@@ -72,8 +72,4 @@ The graded quiz page for a completed quiz
 
 ## Link to Deployed Page
 
-[Link to Deployed Site](https://shielded-thicket-93184.herokuapp.com/)
-
 ## Repo
-
-[Link To Github Repo](https://github.com/TheMernMachine/Knowledge-Hub)
